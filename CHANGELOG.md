@@ -1,3 +1,8 @@
+### Version 1.12.5
+- Moved "@types/*" to "dependencies"
+- Replaced tabs with spaces
+- Showing an error when using invalid cwd paths
+
 ### Version 1.12.4
 - Readme: using hi-res logo
 
