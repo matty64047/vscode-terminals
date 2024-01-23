@@ -1,0 +1,46 @@
+{
+    "autorun": true,
+    "terminals": [
+      {
+        "name": "UI",
+        "description": "UI",
+        "commands": ["echo 1"]
+      },
+      {
+        "name": "Config Server",
+        "description": "Config Server",
+        "commands": ["echo 2"],
+        "execute" : false
+      },
+      {
+        "name": "API Gateway",
+        "description": "API Gateway",
+        "commands": ["echo 3"]
+      },
+      {
+        "name": "Start UI",
+        "command": "echo 'starting server'",
+        "target" : "UI",
+        "open" : false
+      },
+      {
+        "name": "Start Config Server",
+        "command": "echo 'starting server'",
+        "target" : "Config Server",
+        "open" : false
+      },
+      {
+        "name": "Start Api Server",
+        "command": "echo 'starting server'",
+        "target" : "API Gateway",
+        "open" : false
+      },
+      {
+        "name": "Start All Servers",
+        "command": "echo 'starting server'",
+        "open" : false,
+        "targets" : ["API Gateway", "UI"]
+      }
+    ]
+  }
+  

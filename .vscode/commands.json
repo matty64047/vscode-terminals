@@ -1,0 +1,20 @@
+{
+    "commands": [
+      {
+        "text": "$(chevron-right)",
+        "command": "workbench.action.showCommands",
+        "tooltip": "Show commands"
+      },
+      {
+        "command": "commands.refresh",
+        "text": "$(sync)",
+        "tooltip": "Refresh commands",
+        "color": "#FFCC00"
+      },
+      {
+        "text": "Serve",
+        "command": "terminals.runTerminal",
+        "tooltip": "Serve the project"
+      }
+    ]
+  }
